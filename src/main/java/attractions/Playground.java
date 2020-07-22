@@ -12,8 +12,8 @@ public class Playground extends Attraction implements ISecurity {
     public int minAge(int data) {
         return minAge(data);
     }
-    public boolean isAllowedTo() {
+    public boolean isAllowedTo(ISecurity) {
         while (minAge(15) < 15);
-        return false;
+        return false; // can't work out how to have this function properly
     }
 }
